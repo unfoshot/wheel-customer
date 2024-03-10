@@ -1,0 +1,33 @@
+{
+  "name": "wheeljack",
+  "version": "1.0.0",
+  "description": "A JavaScript library for getting and setting properties on objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=./src ./node_modules/.bin/jasmine-node --coffee test/",
+    "testw": "NODE_PATH=./src ./node_modules/.bin/jasmine-node --color --autotest --coffee test/ --watch src",
+    "prepublish": "npm run compile",
+    "compile": "./node_modules/.bin/webpack",
+    "start": "./node_modules/.bin/webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luk3thomas/wheeljack"
+  },
+  "author": "Luke Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luk3thomas/wheeljack/issues"
+  },
+  "homepage": "https://github.com/luk3thomas/wheeljack",
+  "dependencies": {
+    "delvec": "0.0.50",
+    "light-curry": "0.0.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "jasmine-node": "^1.14.5",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
+}
