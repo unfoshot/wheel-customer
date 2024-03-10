@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:unfoshot/wheel-customer.git"
+    "url": "https://github.com/unfoshot/wheel-customer.git"
   },
-  "author": "Luke Thomas",
-  "license": "ISC",
-  "homepage": "git@github.com:unfoshot/wheel-customer.git",
+  "author": "unfoshot",
+  "license": "MIT",
+  "homepage": "https://github.com/unfoshot/wheel-customer.git",
   "dependencies": {
     "delvec": "0.0.50",
     "light-curry": "0.0.2"
