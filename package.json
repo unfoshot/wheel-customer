@@ -1,6 +1,6 @@
 {
   "name": "wheeljack-tool",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JavaScript library for getting and setting properties on objects",
   "main": "index.js",
   "scripts": {
